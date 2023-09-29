@@ -1,7 +1,7 @@
 
 
 
-var	sortNumber = fnction( number ){
+var	sortNumber = function( number ){
 		number.sort(
 			function( a, b ){
 				if( a === b )	return 0;
@@ -11,11 +11,11 @@ var	sortNumber = fnction( number ){
 	};
 
 
-var	number = { 19, 3, 81, 1, 24, 21 };
+var	number = [ 19, 3, 81, 1, 24, 21 ];
 
 sortNumber( number );
 
-console.log( nymber );
+console.log( number );
 
 
 
