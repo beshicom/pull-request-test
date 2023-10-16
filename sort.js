@@ -1,6 +1,10 @@
 
 
 
+//ƒRƒƒ“ƒg
+
+
+
 var	sortNumber = fnction( number ){
 		number.sort(
 			function( a, b ){
